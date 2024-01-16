@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="ic_launcher_background">#1a1064</color>
+    <color name="pink_100">#f8bbd0 </color>
+    <color name="purple_200">#961D40</color>
+    <color name="purple_500">#f48fb1</color>
+    <color name="purple_700">#ffc0cb</color>
+    <color name="shrine_pink_100">#6a5c64</color>
+    <color name="shrine_pink_900">#6a5c64</color>
+    <color name="shrine_red">#6a5c64</color>
+    <color name="teal_200">#ba68c8</color>
+    <color name="teal_700">#8e24aa</color>
+    <color name="transparent">#00000000 </color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="all_songs">Alle Lullabies</string>
+    <string name="app_name">The Best Lullabies</string>
+    <string name="appbar1"/>
+    <string name="appbar2">30 Free Lullaby Without Internet</string>
+    <string name="appbarSongDesc">30 Free Lullaby</string>
+    <string name="bannerReklamString1">ca-app-pub-6718047658826044/5242745867</string>
+    <string name="bannerReklamString2">ca-app-pub-6718047658826044/2971805746</string>
+    <string name="begen">Like the app</string>
+    <string name="gecisReklamString1">ca-app-pub-6718047658826044/1467152388</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="karisik_mode_aktif">Shuffle Mode Active</string>
+    <string name="karisik_mode_kapali">Shuffle Mode Off</string>
+    <string name="magazayagit">Go to the store</string>
+    <string name="manifest_admob_kodu">ca-app-pub-6718047658826044~7474276398</string>
+    <string name="nameofsong">Name of Lullaby</string>
+    <string name="onesignal_notification_accent_color">FF00FF00</string>
+    <string name="play_magaza">https://play.google.com/store/apps/developer?id=AppKidsPro</string>
+    <string name="playerActivtyTumSarkiler">All Lullaby</string>
+    <string name="repeat_mode_aktif">Repeat Mode Active</string>
+    <string name="repeat_mode_kapali">Repeat Mode Off</string>
+    <string name="sarki1">  1-Baby Lullaby           </string>
+    <string name="sarki10"> 10-Hush Little Baby         </string>
+    <string name="sarki11"> 11-Hushaby Lullaby               </string>
+    <string name="sarki12"> 12-Last Night I Saw Mom                   </string>
+    <string name="sarki13"> 13-Little Snowflake                   </string>
+    <string name="sarki14"> 14-Lullaby Goodnight        </string>
+    <string name="sarki15"> 15-Music Box Lullaby              </string>
+    <string name="sarki16"> 16-Pachelbels Canon    </string>
+    <string name="sarki17"> 17-Pretty Little Horses                 </string>
+    <string name="sarki18"> 18-LRock A Bye Baby                 </string>
+    <string name="sarki19"> 19-Roll Over Songs               </string>
+    <string name="sarki2">  2-Brahm Lullaby          </string>
+    <string name="sarki20"> 20-Silent Night           </string>
+    <string name="sarki21"> 21-Sleep Little One Go To Sleep                    </string>
+    <string name="sarki22"> 22-Sleep Soundly My Son                   </string>
+    <string name="sarki23"> 23-Sleep Well        </string>
+    <string name="sarki24"> 24-Sleepy Head           </string>
+    <string name="sarki25"> 25-Somewhere        </string>
+    <string name="sarki26"> 26-Song to Sleep         </string>
+    <string name="sarki27"> 27- Stars at Christmas Night        </string>
+    <string name="sarki28"> 28-The Elephants          </string>
+    <string name="sarki29"> 29-The Water is Wide         </string>
+    <string name="sarki3">  3-Edelweiss Every Morning       </string>
+    <string name="sarki30"> 30-Twinkle Twinkle Little Star      </string>
+    <string name="sarki4">  4-Fly Away With Me            </string>
+    <string name="sarki5">  5-Go To Sleep                    </string>
+    <string name="sarki6">  6-Good Night Little Kid        </string>
+    <string name="sarki7">  7-Good Night My Friends           </string>
+    <string name="sarki8">  8-Good Night Songs    </string>
+    <string name="sarki9">  9-Good Night With Roses    </string>
+    <string name="share">Share Application</string>
+    <style name="CustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="MyPopUpMenu" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:popupMenuStyle">@color/pink_100</item>
+    </style>
+    <style name="Theme.Mp3PlayerDeneme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        
+    </style>
+    <style name="androidx.appcompat.app.AppCompatDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+    <style name="trans_bg_dialog" parent="@style/Theme.AppCompat.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+</resources>
